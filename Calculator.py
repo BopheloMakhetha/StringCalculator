@@ -15,7 +15,6 @@ class Calculator():
         total = 0
         negatives = []
         for num in input_list:
-            # if num.isdigit():
             num = int(num)
             if num < 0:
                 negatives.append(num)
